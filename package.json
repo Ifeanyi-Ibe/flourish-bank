@@ -2,11 +2,11 @@
   "name": "flourish-bank",
   "version": "1.0.0",
   "description": "Bank Account Management API",
-  "main": "dist/src/server.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "rimraf dist && npx tsc",
     "prestart": "npm run build",
-    "start": "node dist/src/server.js",
+    "start": "node dist/server.js",
     "predev": "npm run build",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
