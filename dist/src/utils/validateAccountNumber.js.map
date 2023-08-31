@@ -1,0 +1,1 @@
+{"version":3,"file":"validateAccountNumber.js","sourceRoot":"","sources":["../../../src/utils/validateAccountNumber.ts"],"names":[],"mappings":";;AAAA,SAAwB,qBAAqB,CAAC,aAAqB;IACjE,MAAM,sBAAsB,GAAG,QAAQ,CAAC,aAAa,CAAC,CAAC;IACvD,OAAO,CACL,OAAO,sBAAsB,KAAK,QAAQ,IAAI,aAAa,CAAC,MAAM,KAAK,EAAE,CAC1E,CAAC;AACJ,CAAC;AALD,wCAKC"}
