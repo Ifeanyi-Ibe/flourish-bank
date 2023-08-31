@@ -17,14 +17,13 @@ const options: swaggerJsdoc.Options = {
 const swaggerSpec = swaggerJsdoc(options);
 
 function swaggerDocs(app: Express) {
-  app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+  app.use("/api/accounts/doc", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
   app.use("docs.json", (req: Request, res: Response) => {
     res.setHeader("Content-Type", "application/json");
     res.send(swaggerSpec);
   });
 
-  console.log(`Views documentation at http://localhost:8080/doc`);
 }
 
 export default swaggerDocs;
