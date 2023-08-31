@@ -4,7 +4,7 @@
   "description": "Bank Account Management API",
   "main": "server.js",
   "scripts": {
-    "build": "rimraf dist && npx tsc",
+    "build": "rm -rf dist && npx tsc",
     "prestart": "npm run build",
     "start": "node dist/src/server.js",
     "predev": "npm run build",
