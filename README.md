@@ -14,5 +14,7 @@ This service exposes three endpoints, as follows:
 - Then, run the command  ```npm run dev```  to get the app running
 
 ## Documentation
+
 Click here https://flourish-bank-service.onrender.com/accounts/doc to see the hosted swagger documentation for this application.
+
 See the documentation at "/doc" endpoint, for example: http://localhost:8000/api/account/doc if the app is running locally on port 8000.
