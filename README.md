@@ -10,4 +10,5 @@ This service exposes three endpoints, as follows:
 
 ## How to run the app locally
 
-- Run ```npm install``` to install dependencies
+- Run  ```npm install```  to install dependencies
+- Then, run the command  ```npm run dev```  to get the app running
