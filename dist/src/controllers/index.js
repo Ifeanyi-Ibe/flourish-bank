@@ -25,21 +25,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getByAccountNumber = exports.getAccounts = exports.createAccount = void 0;
 const accountService = __importStar(require("../service"));
-/**
- * @openapi
- * '/api/accounts':
- * post:
- *  tags:
- *    - Account
- *  summary: Create an account
- *  requestBody:
- *    required: true
- *    contents:
- *      application/json:
- *        schema:
- *          $ref: '#/components/schemas/Account'
- *
- */
 async function createAccount(req, res, next) {
     try {
         const request = req.body;

@@ -25,26 +25,6 @@ export interface AccountRequest {
   initialBalance: number;
 }
 
-/**
- * @openapi
- * components:
- *  schemas:
- *    AccountResponse:
- *      type: object
- *      properties:
- *          accountName:
- *            type: string
- *            default: Jane Doe
- *          accountNumber:
- *            type: string
- *            default: 0987545321
- *          type:
- *            type: string
- *            default: Savings Account
- *          initialBalance:
- *            type: string
- *            default: 0.00
- */
 export interface AccountResponse {
   accountName: string;
   type: string;

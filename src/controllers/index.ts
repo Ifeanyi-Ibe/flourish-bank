@@ -3,21 +3,6 @@ import { NextFunction, Response, Request } from "express";
 import { AccountRequest } from "../dto";
 import * as accountService from "../service";
 
-/**
- * @openapi
- * '/api/accounts':
- * post:
- *  tags:
- *    - Account
- *  summary: Create an account
- *  requestBody:
- *    required: true
- *    contents:
- *      application/json:
- *        schema:
- *          $ref: '#/components/schemas/Account'
- *
- */
 export async function createAccount(
   req: Request,
   res: Response,

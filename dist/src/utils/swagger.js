@@ -18,12 +18,11 @@ const options = {
 };
 const swaggerSpec = (0, swagger_jsdoc_1.default)(options);
 function swaggerDocs(app) {
-    app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+    app.use("/accounts/doc", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
     app.use("docs.json", (req, res) => {
         res.setHeader("Content-Type", "application/json");
         res.send(swaggerSpec);
     });
-    console.log(`Views documentation at http://localhost:8080/doc`);
 }
 exports.default = swaggerDocs;
 //# sourceMappingURL=swagger.js.map
